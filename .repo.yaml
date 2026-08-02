@@ -1,0 +1,46 @@
+repo_slug: "Fintech-Refresh-Time-Sampling-Time-Synchronization-algorithm"
+github: "IslamBaraka90/Fintech-Refresh-Time-Sampling-Time-Synchronization-algorithm"
+visibility: "public"
+
+derives_from:
+  topic_id: "D01-F03-A03"
+  title: "Refresh-Time Sampling"
+  domain_id: "D01"
+  domain: "Market Data Engineering"
+  family_id: "D01-F03"
+  family: "Time Synchronization"
+  source_path: "algorithms/domains/D01-market-data-engineering/D01-F03-time-synchronization/D01-F03-A03-refresh-time-sampling"
+
+article_url: "https://thefintechbuilder.com/market-data-engineering/time-synchronization/refresh-time-sampling/"
+languages: ["python", "typescript"]
+npm_subpath: "fintech-algorithms/market-data-engineering/time-synchronization/refresh-time-sampling"
+
+# Split model: the reader keeps the teaching snippet; this repo owns the sampler plus
+# the ANALYSIS surface (controller_profile, loss_report, cadence_profile,
+# subset_comparison) and the StreamingRefreshSampler.
+#
+# The surface was chosen because the tutorial produces the sample and leaves the three
+# questions that decide whether the basket was a good idea:
+#   - controller_profile  -> WHICH instrument is setting the sampling frequency. On the
+#                            reference fixture one name controls 4 of 4 refreshes, and
+#                            nothing in the sampled series itself would reveal that.
+#   - subset_comparison   -> what each name costs the basket, in refreshes and in loss.
+#                            This is the one that changes decisions.
+#   - cadence_profile     -> how irregular the result is, since a fixed-interval
+#                            estimator downstream is misspecified by exactly that gap.
+#
+# The acceptance fixture is the monorepo's rich_events.json PLUS the complete expected
+# output frozen from the reference implementation, so both ports assert every row,
+# source and count rather than only the partition summary the dataset shipped with.
+#
+# The batch kernel here also replaces the tutorial's repeated full scans with per
+# instrument cursors and an incremental latest-revision map; output is byte-identical to
+# the reference, which is asserted directly.
+#
+# UPSTREAM DIVERGENCE handled here, still present in the monorepo source and therefore
+# in the generated npm package: values go through float(raw["value"]), so Python accepts
+# "100.5" where the TypeScript port rejects a string. Both ports here require a real
+# number. The tutorial also parses timestamps with datetime.fromisoformat against a
+# permissive endswith("Z") check; this repo validates the calendar date explicitly in
+# both languages.
+model: "split"

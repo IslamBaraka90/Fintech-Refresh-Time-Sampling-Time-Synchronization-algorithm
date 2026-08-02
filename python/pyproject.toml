@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fintech-refresh-time"
+version = "0.1.0"
+description = "Causal all-refresh sampling for asynchronous instruments, with controller diagnostics, information-loss accounting and a live sampler."
+readme = "../README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "The Fintech Builder" }]
+keywords = [
+  "fintech",
+  "refresh-time",
+  "asynchronous-trading",
+  "epps-effect",
+  "realized-covariance",
+  "time-synchronization",
+  "market-data",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Financial and Insurance Industry",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Office/Business :: Financial :: Investment",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[project.urls]
+Article = "https://thefintechbuilder.com/market-data-engineering/time-synchronization/refresh-time-sampling/"
+Homepage = "https://github.com/IslamBaraka90/Fintech-Refresh-Time-Sampling-Time-Synchronization-algorithm"
+Index = "https://github.com/IslamBaraka90/Fintech-Algorithms-Awesome"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]

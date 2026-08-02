@@ -1,0 +1,439 @@
+{
+ "license": "CC0-1.0 synthetic",
+ "required_instruments": [
+  "ALPHA",
+  "BETA",
+  "GAMMA"
+ ],
+ "max_staleness_ms": 5000,
+ "observations": [
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a00",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:00.000Z",
+   "available_at": "2026-01-05T14:30:00.100Z",
+   "value": 100.0
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b00",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:00.000Z",
+   "available_at": "2026-01-05T14:30:00.220Z",
+   "value": 50.0
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "GAMMA",
+   "record_id": "g00",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:00.000Z",
+   "available_at": "2026-01-05T14:30:00.340Z",
+   "value": 25.0
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a01",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:01.000Z",
+   "available_at": "2026-01-05T14:30:01.110Z",
+   "value": 100.1
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a02",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:02.000Z",
+   "available_at": "2026-01-05T14:30:02.120Z",
+   "value": 100.2
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b01",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:02.000Z",
+   "available_at": "2026-01-05T14:30:02.250Z",
+   "value": 50.15
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a03",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:03.000Z",
+   "available_at": "2026-01-05T14:30:03.130Z",
+   "value": 100.3
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a04",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:04.000Z",
+   "available_at": "2026-01-05T14:30:04.140Z",
+   "value": 100.4
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b02",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:04.000Z",
+   "available_at": "2026-01-05T14:30:04.260Z",
+   "value": 50.3
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "GAMMA",
+   "record_id": "g01",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:04.000Z",
+   "available_at": "2026-01-05T14:30:04.380Z",
+   "value": 25.2
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a05",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:05.000Z",
+   "available_at": "2026-01-05T14:30:05.150Z",
+   "value": 100.5
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a06",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:06.000Z",
+   "available_at": "2026-01-05T14:30:06.160Z",
+   "value": 100.6
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b03",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:06.000Z",
+   "available_at": "2026-01-05T14:30:06.270Z",
+   "value": 50.45
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a07",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:07.000Z",
+   "available_at": "2026-01-05T14:30:07.170Z",
+   "value": 100.7
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a08",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:08.000Z",
+   "available_at": "2026-01-05T14:30:08.180Z",
+   "value": 100.8
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b04",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:08.000Z",
+   "available_at": "2026-01-05T14:30:08.280Z",
+   "value": 50.6
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "GAMMA",
+   "record_id": "g02",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:08.000Z",
+   "available_at": "2026-01-05T14:30:08.420Z",
+   "value": 25.4
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "ALPHA",
+   "record_id": "a09",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:09.000Z",
+   "available_at": "2026-01-05T14:30:09.190Z",
+   "value": 100.9
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b05",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:10.000Z",
+   "available_at": "2026-01-05T14:30:10.290Z",
+   "value": 50.75
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b05",
+   "revision": 1,
+   "event_time": "2026-01-05T14:30:10.000Z",
+   "available_at": "2026-01-05T14:30:10.800Z",
+   "value": 50.7
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "GAMMA",
+   "record_id": "g03",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:12.000Z",
+   "available_at": "2026-01-05T14:30:12.460Z",
+   "value": 25.6
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b06",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:12.000Z",
+   "available_at": "2026-01-05T14:30:12.300Z",
+   "value": 50.9
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "GAMMA",
+   "record_id": "g04",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:16.000Z",
+   "available_at": "2026-01-05T14:30:16.500Z",
+   "value": 25.8
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "GAMMA",
+   "record_id": "g05",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:20.000Z",
+   "available_at": "2026-01-05T14:30:20.540Z",
+   "value": 26.0
+  },
+  {
+   "partition": "2026-01-05:XNYS:REG",
+   "instrument": "BETA",
+   "record_id": "b07",
+   "revision": 0,
+   "event_time": "2026-01-05T14:30:14.000Z",
+   "available_at": "2026-01-05T14:30:14.310Z",
+   "value": 51.05
+  }
+ ],
+ "expected": {
+  "rows": [
+   {
+    "partition": "2026-01-05:XNYS:REG",
+    "sequence": 1,
+    "previous_refresh_available_at": null,
+    "refresh_available_at": "2026-01-05T14:30:00.340Z",
+    "controller_instruments": [
+     "GAMMA"
+    ],
+    "status": "accepted",
+    "values": {
+     "ALPHA": 100.0,
+     "BETA": 50.0,
+     "GAMMA": 25.0
+    },
+    "sources": {
+     "ALPHA": {
+      "record_id": "a00",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:00.000Z",
+      "available_at": "2026-01-05T14:30:00.100Z"
+     },
+     "BETA": {
+      "record_id": "b00",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:00.000Z",
+      "available_at": "2026-01-05T14:30:00.220Z"
+     },
+     "GAMMA": {
+      "record_id": "g00",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:00.000Z",
+      "available_at": "2026-01-05T14:30:00.340Z"
+     }
+    },
+    "event_age_ms": {
+     "ALPHA": 340,
+     "BETA": 340,
+     "GAMMA": 340
+    },
+    "arrivals_by_instrument": {
+     "ALPHA": 1,
+     "BETA": 1,
+     "GAMMA": 1
+    },
+    "discarded_updates": 0
+   },
+   {
+    "partition": "2026-01-05:XNYS:REG",
+    "sequence": 2,
+    "previous_refresh_available_at": "2026-01-05T14:30:00.340Z",
+    "refresh_available_at": "2026-01-05T14:30:04.380Z",
+    "controller_instruments": [
+     "GAMMA"
+    ],
+    "status": "accepted",
+    "values": {
+     "ALPHA": 100.4,
+     "BETA": 50.3,
+     "GAMMA": 25.2
+    },
+    "sources": {
+     "ALPHA": {
+      "record_id": "a04",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:04.000Z",
+      "available_at": "2026-01-05T14:30:04.140Z"
+     },
+     "BETA": {
+      "record_id": "b02",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:04.000Z",
+      "available_at": "2026-01-05T14:30:04.260Z"
+     },
+     "GAMMA": {
+      "record_id": "g01",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:04.000Z",
+      "available_at": "2026-01-05T14:30:04.380Z"
+     }
+    },
+    "event_age_ms": {
+     "ALPHA": 380,
+     "BETA": 380,
+     "GAMMA": 380
+    },
+    "arrivals_by_instrument": {
+     "ALPHA": 4,
+     "BETA": 2,
+     "GAMMA": 1
+    },
+    "discarded_updates": 4
+   },
+   {
+    "partition": "2026-01-05:XNYS:REG",
+    "sequence": 3,
+    "previous_refresh_available_at": "2026-01-05T14:30:04.380Z",
+    "refresh_available_at": "2026-01-05T14:30:08.420Z",
+    "controller_instruments": [
+     "GAMMA"
+    ],
+    "status": "accepted",
+    "values": {
+     "ALPHA": 100.8,
+     "BETA": 50.6,
+     "GAMMA": 25.4
+    },
+    "sources": {
+     "ALPHA": {
+      "record_id": "a08",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:08.000Z",
+      "available_at": "2026-01-05T14:30:08.180Z"
+     },
+     "BETA": {
+      "record_id": "b04",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:08.000Z",
+      "available_at": "2026-01-05T14:30:08.280Z"
+     },
+     "GAMMA": {
+      "record_id": "g02",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:08.000Z",
+      "available_at": "2026-01-05T14:30:08.420Z"
+     }
+    },
+    "event_age_ms": {
+     "ALPHA": 420,
+     "BETA": 420,
+     "GAMMA": 420
+    },
+    "arrivals_by_instrument": {
+     "ALPHA": 4,
+     "BETA": 2,
+     "GAMMA": 1
+    },
+    "discarded_updates": 4
+   },
+   {
+    "partition": "2026-01-05:XNYS:REG",
+    "sequence": 4,
+    "previous_refresh_available_at": "2026-01-05T14:30:08.420Z",
+    "refresh_available_at": "2026-01-05T14:30:12.460Z",
+    "controller_instruments": [
+     "GAMMA"
+    ],
+    "status": "accepted",
+    "values": {
+     "ALPHA": 100.9,
+     "BETA": 50.9,
+     "GAMMA": 25.6
+    },
+    "sources": {
+     "ALPHA": {
+      "record_id": "a09",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:09.000Z",
+      "available_at": "2026-01-05T14:30:09.190Z"
+     },
+     "BETA": {
+      "record_id": "b06",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:12.000Z",
+      "available_at": "2026-01-05T14:30:12.300Z"
+     },
+     "GAMMA": {
+      "record_id": "g03",
+      "revision": 0,
+      "event_time": "2026-01-05T14:30:12.000Z",
+      "available_at": "2026-01-05T14:30:12.460Z"
+     }
+    },
+    "event_age_ms": {
+     "ALPHA": 3460,
+     "BETA": 460,
+     "GAMMA": 460
+    },
+    "arrivals_by_instrument": {
+     "ALPHA": 1,
+     "BETA": 3,
+     "GAMMA": 1
+    },
+    "discarded_updates": 2
+   }
+  ],
+  "partitions": [
+   {
+    "partition": "2026-01-05:XNYS:REG",
+    "input_updates": 25,
+    "refresh_candidates": 4,
+    "accepted_rows": 4,
+    "stale_rows": 0,
+    "discarded_updates": 10,
+    "unmatched_tail_updates": 3,
+    "loss_fraction": {
+     "numerator": 13,
+     "denominator": 25
+    }
+   }
+  ]
+ }
+}

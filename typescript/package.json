@@ -1,0 +1,29 @@
+{
+  "name": "fintech-refresh-time",
+  "version": "0.1.0",
+  "description": "Causal all-refresh sampling for asynchronous instruments, with controller diagnostics, information-loss accounting and a live sampler.",
+  "keywords": [
+    "fintech",
+    "refresh-time",
+    "asynchronous-trading",
+    "epps-effect",
+    "realized-covariance",
+    "time-synchronization",
+    "market-data"
+  ],
+  "homepage": "https://github.com/IslamBaraka90/Fintech-Refresh-Time-Sampling-Time-Synchronization-algorithm",
+  "license": "MIT",
+  "author": "The Fintech Builder",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --experimental-strip-types --test \"test/*.test.ts\"",
+    "example": "node --experimental-strip-types examples/quickstart.ts"
+  },
+  "devDependencies": { "typescript": "^5.7.0" }
+}
