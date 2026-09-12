@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "fintech-refresh-time"
 version = "0.1.0"
 description = "Causal all-refresh sampling for asynchronous instruments, with controller diagnostics, information-loss accounting and a live sampler."
-readme = "../README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "The Fintech Builder" }]
